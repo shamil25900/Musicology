@@ -1,0 +1,673 @@
+/* Global classes */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+    font-family: 'Oswald', sans-serif;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+section{
+ padding: 100px 0px;
+}
+
+.heading-one{
+
+font-size: 56px;
+
+text-transform: uppercase;
+
+color: white;
+}
+.heading-two{
+
+}
+
+.small-heading{
+    
+font-size: 28px;
+    
+text-transform: uppercase;
+    
+color: white;
+}
+p{
+    font-weight: 300;
+    font-size: 22px;
+}
+
+
+
+/* css layout---------- */
+
+/* =======================layout style================ */
+.col-1 {
+    width: 8.33%;
+    float: left;
+}
+.col-2 {
+    width: 16.66%; 
+    float: left;
+}
+.col-3 {
+    width: 25%;
+    float: left;
+}
+.col-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-5 {
+    width: 41.66%;
+    float: left;
+}
+.col-6 {
+    width: 50%;
+    float: left;
+}
+.col-7 {
+    width: 58.33%;
+    float: left;
+}
+.col-8 {
+    width: 66.66%;
+    float: left;
+}
+.col-9 {
+    width: 75%;
+    float: left;
+}
+.col-10 {
+    width: 83.33%;
+    float: left;
+}
+.col-11 {
+    width: 91.66%;
+    float: left;
+}
+.col-12, .row {
+    width: 100%;
+    float: left;
+}
+
+
+/* --------------------header start-------------- */
+header{
+    background: url("../img/header-bg.png") no-repeat center;
+    background-size: cover;
+    width: 100%;
+    /* height: 100vh; */
+}
+nav{
+
+background-color: #303030;
+}
+.logo-part{
+
+}
+.logo-part img{
+
+height: 84px;
+
+padding: 11px;
+
+margin-left: 55px;
+}
+.menu{
+
+}
+.menu ul{
+
+list-style: none;
+
+padding-top: 32px;
+
+text-align: start;
+
+margin-left: -80px;
+}
+.menu li{
+
+display: inline-block;
+}
+.menu li a{
+
+color: white;
+
+padding: 0px 23px;
+
+font-size: 24px;
+
+text-transform: uppercase;
+
+/* text-align: start; */
+}
+.menu li a:hover{
+    
+
+}
+.search{
+
+text-align: center;
+
+padding-top: 32px;
+}
+.search i{
+
+color: white;
+
+font-size: 28px;
+}
+.hero-part{
+
+color: white;
+
+width: auto;
+
+padding: 200px 0px;
+}
+.hero-writing-part{
+
+}
+.hero-writing-part h1{
+    font-size: 85px !important;
+    color: white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.hero-writing-part p{
+
+font-size: 27px;
+
+color: #ffffffb3;
+}
+.hero-btn-part{
+
+margin-top: 30px;
+
+/* margin-left: 22px; */
+}
+.hero-btn-part button{
+
+padding: 15px 56px;
+
+font-size: 24px;
+
+text-transform: uppercase;
+
+font-weight: 600;
+
+color: white;
+
+background-color: #e8631c;
+
+border-radius: 4px;
+}
+.hero-btn-part button:hover{
+
+}
+
+
+/* --------------------header end-------------- */
+/* --------------------dance start-------------- */
+#dance{
+    background-image: url(../img/bg-02.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dance-writing-part{
+
+text-align: center;
+}
+.dance-writing-part h2{
+    
+margin-bottom: 28px;
+}
+.dance-writing-part p{
+
+margin-bottom: 60px;
+
+color: white;
+}
+.dance-box-part{
+
+text-align: center;
+}
+.dance-box{
+
+}
+.dance-box h3{padding: 12px 0px;}
+.dance-box p{
+
+font-size: 22px;
+}
+.new{background-color: #303030;padding: 25px 32px;margin: -7px 34px;color: white;}
+.dance-box img{width: 85%;height: 326px;}
+
+
+/* --------------------dance end-------------- */
+/* --------------------pricing start-------------- */
+#pricing{
+    background: url(../img/bg-03.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+.pricing-writing-part{
+
+}
+.pricing-writing-part p{
+
+color: white;
+
+padding: 53px;
+}
+.pricing-box-part{
+
+text-align: center;
+
+width: 100%;
+
+margin-left: 45px;
+}
+.pricing-box{padding: 57px;background-color: #e8631c;margin: 0px 30px;width: 27%;border-radius: 10px;padding-bottom: 19px;}
+.pricing-box h3{
+
+padding: 15px 0px;
+}
+.pricing-box p{
+
+color: white;
+
+padding-bottom: 24px;
+}
+.pricing-box button{
+
+padding: 16px 104px;
+
+font-size: 27px;
+
+text-align: start;
+
+margin-left: -20px;
+
+border-radius: 5px;
+
+background-color: black;
+
+color: white;
+
+font-weight: 500;
+}
+.pricing-box button:hover{
+
+}
+.pricing-box img{
+
+width: 110px;
+}
+
+/* --------------------pricing end-------------- */
+/* --------------------amazing start-------------- */
+#amazing{
+ /* background: url(../img/bg-04.png) no-repeat center; */
+ /* background-size: cover; */
+ /* width: 100%; */
+ padding: 0px;
+ background-color: #ff6122;
+}
+.amazing-img-part{
+}
+.amazing-img-part img{
+
+height: 940px;
+
+width: 100%;
+}
+.amazing-writing-part h4{
+    
+letter-spacing: 2px;
+    
+font-size: 75px;
+}
+.amazing-writing-part p{
+    
+color: white;
+    
+padding: 31px 88px 31px 0px;
+    
+font-size: 21px;
+}
+.amazing-writing-part{position: relative;left: 93px;top: 409px;width: 36%;}
+.amazing-writing-part button{padding: 10px 80px;font-size: 26px;font-weight: 400;border-radius: 5px;color: white;background-color: black;}
+.amazing-writing-part button:hover{
+
+}
+
+/* --------------------amazing end-------------- */
+/* --------------------best start-------------- */
+#best{
+ /* background: url(../img/bg-05.png) no-repeat center; */
+ /* background-size: cover; */
+ width: 100%;
+ margin-top: -6px;
+ padding: 0px;
+ background-color: #ff6122;
+}
+.best-writing-part{position: relative;left: 89px;top: 409px;}
+.best-writing-part button{
+
+padding: 10px 80px;
+
+font-size: 26px;
+
+font-weight: 400;
+
+border-radius: 5px;
+
+color: white;
+
+background-color: black;
+}
+.best-writing-part h4{
+    
+letter-spacing: 2px;
+    
+font-size: 75px;
+}
+.best-writing-part p{
+    
+padding: 31px 60px 31px 0px;
+    
+width: 77%;
+    
+color: white;
+}
+.best-writing-part button:hover{
+
+}
+.best-img-part{
+
+}
+.best-img-part img{
+
+height: 940px;
+
+width: 100%;
+}
+
+/* --------------------best end-------------- */
+/* --------------------statistics start-------------- */
+#statistics{
+ background: url(../img/bg-06.png) no-repeat center;
+ background-size: cover;
+ width: 100%;
+ position: relative;
+ top: -6px;
+ text-align: center;
+ color: white;
+}
+.statistics-writing-part h4{
+
+}
+.statistics-writing-part p{
+
+padding: 41px;
+}
+.statistics{
+
+padding-top: 75px;
+}
+.point-box{
+
+}
+.point-box h6{
+
+font-size: 52px;
+
+font-weight: 200;
+}
+
+/* --------------------statistics end-------------- */
+/* --------------------herbert start-------------- */
+#herbert{
+    background: url("../img/bg-07.png") no-repeat center;
+    background-size: cover;
+    height: 150vh;
+    position: relative;
+    top: -6px;
+    text-align: center;}
+.special{
+
+color: white;
+
+padding-bottom: 59px;
+
+width: 100%;
+
+font-size: 30px;
+}
+.herbert-heading{
+
+font-size: 44px;
+
+font-weight: 500;
+
+letter-spacing: 2px;
+}
+.herbert-writing-part{
+    
+position: relative;
+    
+top: 344px;
+}
+
+/* --------------------herbert end-------------- */
+/* --------------------subscribe start-------------- */
+#subscribe{
+
+background-color: #ff6112;
+
+position: relative;
+
+top: -6px;
+
+text-align: center;
+}
+.subscribe-writing-part{
+
+}
+.subscribe-writing-part h4{
+}
+.subscribe-writing-part p{
+
+padding: 26px;
+
+color: white;
+}
+.subscribe-form-part{
+
+}
+.subscribe-form-part form{
+
+}
+.subscribe-form-part label{
+
+}
+.subscribe-form-part input{
+}
+.email{
+
+width: 39%;
+
+padding: 10px;
+}
+.subscribe-form-part input[type="submit"]{
+    padding: 7px 41px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    position: relative;
+    left: -4px;
+    top: 2px;
+    cursor: pointer;
+}
+/* --------------------subscribe end-------------- */
+/* --------------------details start-------------- */
+#details{
+
+background-color: #303030;
+
+color: white;
+
+position: relative;
+
+top: -6px;
+
+padding-bottom: 94px;
+}
+.musicology{
+}
+.musicology-writing{
+
+}
+.musicology-writing h3{
+
+}
+.musicology-writing p{
+
+padding-right: 288px;
+
+font-size: 23px;
+
+font-weight: 300;
+
+padding-top: 22px;
+
+padding-bottom: 22px;
+}
+.musicology-icons{
+
+font-size: 23px;
+
+color: white;
+}
+/* ===============icons============== */
+.fa-instagram:before {
+    color: black;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;}
+
+    .fa-facebook-f:before{
+        color: black;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+    }
+
+    .fa-twitter:before{
+        color: black;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+    }
+
+    .fa-whatsapp:before{
+        color: black;
+    padding: 8px;
+    background-color: white;
+    border-radius: 50px;
+    }
+/* ===============icons============== */
+.musicology-icons a i{
+
+margin-left: 10px;
+
+font-size: 23px;
+}
+
+
+.about{
+
+}
+.about h3{
+
+padding-bottom: 20px;
+}
+.about p a{
+
+color: white;
+
+font-weight: 200;
+
+line-height: 2;
+
+font-size: 18px;
+}
+
+.services{
+
+}
+.services h3{
+
+padding-bottom: 20px;
+}
+.services p a{
+    
+color: white;
+    
+font-weight: 200;
+    
+line-height: 2;
+    
+font-size: 18px;
+}
+
+.other{
+
+}
+
+.other h3{
+
+padding-bottom: 20px;
+}
+
+.other p a{
+
+color: white;
+
+font-weight: 200;
+
+line-height: 2;
+
+font-size: 18px;
+}
+
+/* --------------------details end-------------- */
+
+
+button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(246, 24, 120);
+    box-shadow: 0px  5px gray;
+    transition: ease-in-out 0.4s;
+}
+
+/* ======================================================================= */
+
+
